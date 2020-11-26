@@ -84,8 +84,8 @@
       <div class="login-content">
         <h2>Log in to TripleChat</h2>
         <form class="login-form">
-          <input type="text" placeholder="Phone, email, or username">
-          <input type="password" placeholder="Password">
+          <input type="text" placeholder="Phone, email, or username" class="login-user-info">
+          <input type="password" placeholder="Password" class="login-password">
           <div>
             <button type="button" class="login-form-btn">Log In</button>
             <input type="checkbox" class="login-form-checkbox" id="check">
@@ -99,8 +99,16 @@
         <p>New to TripleChat <a href="#">Sign up now</a></p>
         <p>Already using Triplechat via text message? <a href="#">Activate your account</a></p>
       </footer>
-
     </div>
+
+  <!-- Login Modal -->
+    <div class="login-modal">
+      <i class="fas fa-times"></i>
+      <p>The username and password you entered did not match
+        our records. Please double check and try again
+      </p>
+    </div>
+
   </section>
   <!-- End Of Login Page -->
 
