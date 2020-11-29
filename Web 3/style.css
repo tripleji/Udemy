@@ -1024,7 +1024,7 @@ body {
 }
 
 .dark-2 {
-  background-color: #10171e;
+  background-color: #10171e !important;
 }
 
 .light {
@@ -1032,5 +1032,5 @@ body {
 }
 
 .border-color {
-  border-color: #444;
+  border-color: #444 !important;
 }
