@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <!--Header-->
+    <!--메뉴바-->
     <nav class="navbar">
         <div class="navbar__logo-box">
             <img src="img/logo.png" alt="Logo" class="navbar__logo">
-            <a href="#">C&D</a>
+            <a href="#" class="navbar__logo">C&D</a>
         </div>
 
         <div class="navbar__menu">
@@ -35,8 +35,56 @@
             <i class="fas fa-bars"></i>
         </button>
     </nav>
-   <!--Header END--> 
+   <!--메뉴바 END--> 
 
+
+    <!--지역 검색 및 필터-->
+    <section class="locations">
+        <div class="location">
+            <strong class="location__select">
+                위치기반으로 주소 뜨는 곳!
+                <i class="icon-basic-paperplane"></i>   
+            </strong>
+            <a href="#" class="location__change">지역변경</a>
+        </div>
+
+        <div class="filter__menu">
+            <ul class="filter__menu">
+                <li><button class="filter__menu__item">종분류<i class="fas fa-chevron-down"></i></button></li>
+                <li><button class="filter__menu__item">몸무게&털종류<i class="fas fa-chevron-down"></i></button></li>
+                <li><button class="filter__menu__item">매장정보<i class="fas fa-chevron-down"></i></button></li>
+                <li><button class="filter__menu__item">정렬(거리순, 리뷰순, 평점순)<i class="fas fa-chevron-down"></i></button></li>
+                <li><button class="filter__menu__item">정렬(지역반경)<i class="fas fa-chevron-down"></i></button></li>
+            </ul>
+        </div>
+    </section>
+
+    <!--지도-->
+    <section class="maps">
+        <div class="map">
+            지도를 넣어주세용
+        </div>
+    </section>
+
+    <!--헤어샵 목록-->
+    <section class="shops">
+        <div class="shop">
+            <a href="#" class="shop__info">
+                <div class="shop__info__detail">
+                    <strong class="info__detail-1">
+                        C&D 헤어샵
+                    </strong>
+                    <span class="distance">1.5km</span>
+                </div>
+                <ul class="info__detail-2">
+                    <li><i class="fas fa-star"></i>&nbsp; 4.6</li>
+                    <li><i class="fas fa-comment-alt"></i>&nbsp; 3</li>
+                </ul>
+                <p class="desc__info">서울시 강북구 미아동</p>
+                <p class="desc__info">커트 50,000원</p>
+            </a>
+        </div>
+    </section>
 
 
 

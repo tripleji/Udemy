@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  background-color: $color-dgrey-1;
   color: $color-white;
   padding: 3rem;
   transition: all 0.2s ease-in-out;
@@ -18,6 +18,7 @@
 
   &__logo {
     height: 2.5rem;
+    color: $color-white;
   }
 
   &__menu {
@@ -29,6 +30,7 @@
     padding: 0.8rem 1.2rem;
     margin: 0 8rem;
     cursor: pointer;
+    color: $color-white;
 
     &:hover {
       background-color: $color-dgrey;
