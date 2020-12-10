@@ -1,5 +1,3 @@
 $(function () {
-  $(".blue-box").animate({
-    "margin-left": "200px"
-  }, 1000, "linear");
+  $(".lightbox").delay(500).fadeIn(1000);
 });
