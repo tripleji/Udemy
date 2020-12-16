@@ -24,7 +24,21 @@ interface Developer {
     skill: string;
 }
 
-interface People {
+interface Person {
     name: string;
     age: number;
 }
+
+function askSomeone(someone: Developer | Person){
+//     someone.name
+//     someone.skill
+//     someone.age
+}
+askSomeone({name: '개발자', skill: '웹 개발'});
+askSomeone({name: 'dd', age: '27'});
+
+// function askSomeone(someone: Developer & Person){
+//     someone.name
+//     someone.skill
+//     someone.age
+// }
